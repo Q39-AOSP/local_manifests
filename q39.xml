@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://www.github.com" />
+
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
+
+<!-- Device -->
+<project path="device/tcl/q39" name="lrinQVQ/android_device_tcl_q39" remote="github" revision="7.1.1" />
+
+<!-- Kernel -->
+<remove-project name="kernel/msm-3.10" />
+<project path="kernel/tcl/q39" name="lrinQVQ/android_kernel_tcl_q39" remote="github" revision="7.1.1-dev" />
+
+<!-- lk -->
+<remove-project name="kernel/lk" />
+<project path="bootable/bootloader/lk" name="lrinQVQ/android_bootloader_tcl_q39" remote="github" revision="LA.BR.1.2.9_rb1.12" />
+</manifest>
