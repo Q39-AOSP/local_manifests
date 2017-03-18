@@ -12,7 +12,7 @@
 
 <!-- Kernel -->
 <remove-project name="kernel/msm-3.10" />
-<project path="kernel/tcl/q39" name="lrinQVQ/android_kernel_tcl_q39" remote="github" revision="7.1.1-dev" />
+<project path="kernel" name="lrinQVQ/android_kernel_tcl_q39" remote="github" revision="7.1.1-dev" />
 
 <!-- lk -->
 <remove-project name="kernel/lk" />
