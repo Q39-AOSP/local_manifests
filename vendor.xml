@@ -3,4 +3,6 @@
 
 <project name="lrinQVQ/android_vendor_tcl_q39" path="vendor/tcl/q39" remote="github" revision="7.1.1" />
 
+<project name="lrinQVQ/android_vendor_qcom_msm8916_64" path="vendor/qcom/msm8916_64" remote="github" revision="7.1.1" />
+
 </manifest>
