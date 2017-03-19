@@ -10,7 +10,7 @@
 <!-- Device -->
 <remove-project name="platform/vendor/qcom/msm8916_64" />
 <remove-project name="device/qcom/common" />
-<project path="device/qcom/msm8916" name="lrinQVQ/android_device_qcom_msm8916_64" remote="github" revision="7.1.1" />
+<project path="device/qcom/msm8916_64" name="lrinQVQ/android_device_qcom_msm8916_64" remote="github" revision="7.1.1" />
 <project path="device/qcom/common" name="lrinQVQ/android_device_qcom_commom" remote="github" revision="7.1.1" />
 
 <!-- Kernel -->
