@@ -8,11 +8,14 @@
            fetch="ssh://git@github.com" />
 
 <!-- Device -->
-<project path="device/tcl/q39" name="lrinQVQ/android_device_tcl_q39" remote="github" revision="7.1.1" />
+<remove-project name="platform/vendor/qcom/msm8916_64" />
+<remove-project name="device/qcom/common" />
+<project path="device/qcom/msm8916" name="lrinQVQ/android_device_qcom_msm8916_64" remote="github" revision="7.1.1" />
+<project path="device/qcom/common" name="lrinQVQ/android_device_qcom_commom" remote="github" revision="7.1.1" />
 
 <!-- Kernel -->
 <remove-project name="kernel/msm-3.10" />
-<project path="kernel" name="lrinQVQ/android_kernel_tcl_q39" remote="github" revision="7.1.1-dev" />
+<project path="kernel" name="lrinQVQ/android_kernel_tcl_msm8939" remote="github" revision="7.1.1-dev" />
 
 <!-- lk -->
 <remove-project name="kernel/lk" />
