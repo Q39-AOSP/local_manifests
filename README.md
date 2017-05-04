@@ -17,7 +17,7 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the AOSP CAF trees, use a command like this:
 
-	repo init -u git://codeaurora.org/platform/manifest.git -b release -m LA.BR.1.2.9-01810-8x16.0.xml --repo-url=git://codeaurora.org/tools/repo.git --repo-branch=caf-stable
+	repo init -u git://codeaurora.org/platform/manifest.git -b release -m LA.BR.1.2.9-02310-8x16.0.xml --repo-url=git://codeaurora.org/tools/repo.git --repo-branch=caf-stable
 
 	git clone https://github.com/lrinQVQ/local_manifests.git .repo/
 
