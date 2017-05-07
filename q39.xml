@@ -12,11 +12,12 @@
 <remove-project name="device/qcom/common" />
 <remove-project name="platform/system/core" />
 <remove-project name="platform/bionic" />
+<remove-project name="platform/build" />
 <project path="device/qcom/msm8916_64" name="lrinQVQ/android_device_qcom_msm8916_64" remote="github" revision="7.1.1" />
 <project path="device/qcom/common" name="lrinQVQ/android_device_qcom_commom" remote="github" revision="7.1.1" />
 <project path="system/core" name="lrinQVQ/android_platform_system_core" remote="github" revision="LA.BR.1.2.9_rb1.15" />
 <project path="bionic" name="lrinQVQ/android_platform_bionic" remote="github" revision="LA.BR.1.2.9_rb1.15" />
-
+<project path="build" name="lrinQVQ/android_platform_build" remote="github" revision="LA.BR.1.2.9_rb1.15" />
 <!-- Kernel -->
 <remove-project name="kernel/msm-3.10" />
 <project path="kernel" name="lrinQVQ/android_kernel_tcl_msm8939" remote="github" revision="7.1.1" />
