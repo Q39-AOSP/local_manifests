@@ -26,6 +26,6 @@ Started Building
 
 	source build/envsetup.sh
 
-	lunch q39-userdebug
+	lunch msm8916_64-userdebug
 
 	make -j4
