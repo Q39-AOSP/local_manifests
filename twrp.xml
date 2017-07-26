@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remove-project name="platform/bootable/recovery" />
+<project name="omnirom/android_bootable_recovery" path="bootable/recovery" remote="github" revision="android-5.0" />
+<project path="external/busybox" name="lrinQVQ/android_external_busybox" remote="github" revision="cm-12.0" />
+</manifest>
