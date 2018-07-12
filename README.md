@@ -6,11 +6,17 @@ Getting Started
 
 You will need add codeaurora.org in hosts.
 
-China Unicom: 61.49.51.109	codeaurora.org
+China Unicom:
+61.49.51.109	codeaurora.org
+61.49.51.109	source.codeaurora.org
 
-China Telecom: 101.226.197.144	codeaurora.org
+China Telecom:
+101.226.197.144	codeaurora.org
+101.226.197.144	source.codeaurora.org
 
-China Mobile: 119.9.118.43	codeaurora.org
+China Mobile:
+119.9.118.43	codeaurora.org
+119.9.118.43	source.codeaurora.org
 
 To get started with AOSP CAF, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
